@@ -19,10 +19,7 @@ let persons = R.range(0, 2).map(
 
 // testMakePerson();
 
-// any타입은 최상위 타입
-let b: any = 10;
-b = '문자열변경';
+// ------------------------------------------------------------------------
 
-// ---- undefined는 최하위 타입
-let a: string = '문자열';
-a = undefined;
+// 1. 객체와 인터페이스
+import './contents/Object_interface';
