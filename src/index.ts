@@ -23,3 +23,5 @@ let persons = R.range(0, 2).map(
 
 // 1. 객체와 인터페이스
 import './contents/Object_interface';
+// 2. 함수와 메서드
+import './contents/Function_method';
